@@ -1,0 +1,8 @@
+<div class="page">
+    @for (row of layout().rows; track row) {
+        <ng-container>
+            <layout-row [row]="row"></layout-row>
+        </ng-container>
+    }
+  </div>
+  
